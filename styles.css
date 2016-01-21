@@ -1,0 +1,50 @@
+body {
+	background-color: #9B8F89;
+}
+
+.calcBody {
+	width: 250px;
+	background-color: black;
+	margin: 50px auto;
+	border-radius: 10px;
+	padding: 10px 15px 30px 15px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-family: Tangerine;
+}
+
+.calcScreen {
+	width: 98%;
+	height: 55px;
+	background-color: #80ba80;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.btns {
+	display: inline;
+	width: 19.8%;
+	height: 35px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.numbers.zero {
+	width: 45.2%;
+}
+
+.arithmaticOperations {
+	background-color: orange;
+}
+
+.equals {
+	background-color: green;
+}
+
+.clearBtns {
+	background-color: red;
+}
