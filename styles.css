@@ -7,7 +7,7 @@ body {
 	background-color: black;
 	margin: 50px auto;
 	border-radius: 10px;
-	padding: 10px 15px 30px 15px;
+	padding: 5px 15px 20px 15px;
 }
 
 h2 {
@@ -16,16 +16,21 @@ h2 {
 	font-family: Tangerine;
 }
 
-.calcScreen {
+#screen {
 	width: 98%;
 	height: 55px;
 	background-color: #80ba80;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border-radius: 5px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 45px;
+	margin-top: -10px;
+	margin-bottom: 10px;
 }
 
-.btns {
+.keys {
 	display: inline;
 	width: 19.8%;
 	height: 35px;
@@ -33,11 +38,11 @@ h2 {
 	border-radius: 10px;
 }
 
-.numbers.zero {
+.zero {
 	width: 45.2%;
 }
 
-.arithmaticOperations {
+.operators {
 	background-color: orange;
 }
 
@@ -45,6 +50,6 @@ h2 {
 	background-color: green;
 }
 
-.clearBtns {
+.clear {
 	background-color: red;
 }

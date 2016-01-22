@@ -8,32 +8,39 @@
 </head>
 <body>
 	<div class="calcBody">
-		<h2>Alex's Electronic Calculator</h2>
-		<div class="calcScreen"></div>
-		<button class="btns clearBtns allClear">AC</button>
-		<button class="btns clearBtns clearEntry">CE</button>
-		<button class="btns arithmaticOperations percent">%</button>
-		<button class="btns arithmaticOperations divide">/</button>
-		<button class="btns numbers seven">7</button>
-		<button class="btns numbers eight">8</button>
-		<button class="btns numbers nine">9</button>
-		<button class="btns arithmaticOperations times">X</button>
-		<button class="btns numbers four">4</button>
-		<button class="btns numbers five">5</button>
-		<button class="btns numbers six">6</button>
-		<button class="btns arithmaticOperations minus">-</button>
-		<button class="btns numbers one">1</button>
-		<button class="btns numbers two">2</button>
-		<button class="btns numbers three">3</button>
-		<button class="btns arithmaticOperations add">+</button>
-		<button class="btns numbers zero">0</button>
-		<button class="btns numbers point">.</button>
-		<button class="btns equals">=</button>
+		<form>
+			<h2>Alex's Electronic Calculator</h2>
+			<input type="text" id="screen" disabled>
+			<br />
+			<input type="button" value="C" class="clear keys" onClick="addValue('c')">
+			<input type="button" value="<--" class="clear keys" onClick="backspace()">
+			<input type="button" value="%" class="operators keys" onClick="addValue('%')">
+			<input type="button" value="/" class="operators keys" onClick="addValue('/')">
+			<br />
+			<input type="button" value="9" class="keys" onClick="addValue('9')">
+			<input type="button" value="8" class="keys" onClick="addValue('8')">
+			<input type="button" value="7" class="keys" onClick="addValue('7')">
+			<input type="button" value="X" class="operators keys" onClick="addValue('*')">
+			<br />
+			<input type="button" value="6" class="keys" onClick="addValue('6')">
+			<input type="button" value="5" class="keys" onClick="addValue('5')">
+			<input type="button" value="4" class="keys" onClick="addValue('4')">
+			<input type="button" value="-" class="operators keys" onClick="addValue('-')">
+			<br />
+			<input type="button" value="3" class="keys" onClick="addValue('3')">
+			<input type="button" value="2" class="keys" onClick="addValue('2')">
+			<input type="button" value="1" class="keys" onClick="addValue('1')">
+			<input type="button" value="+" class="operators keys" onClick="addValue('+')">
+			<br />
+			<input type="button" value="0" class="zero keys" onClick="addValue('0')">
+			<input type="button" value="." class="keys" onClick="addValue('.')">
+			<input type="button" value="=" class="equals keys" onClick="answer()">
 
 
 
+
+		</form>
 	</div>
-
 
 
 
