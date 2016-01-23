@@ -42,6 +42,10 @@ h2 {
 	box-shadow: inset 0 0 8px black;
 }
 
+.keys:focus {
+  outline: none;
+}
+
 .zero {
 	width: 45.2%;
 }
